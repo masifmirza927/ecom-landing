@@ -1,0 +1,52 @@
+/* css variables */
+:root {
+    --dark-blue: #0E1422;
+    --light-blue: #162953;
+    --light-gray: #F6F6F6;
+    --dark-gray: #eeeeef;
+}
+
+/** bootstrap overrides **/
+.btn-primary {
+    background-color: var(--dark-blue);
+    color: white;
+    border: 0;
+    padding: 8px 25px;
+}
+.btn-primary:hover {
+    background-color:  var(--light-blue);
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.topBar {
+    background-color: var(--dark-blue);
+}
+
+#hero {
+    background-color: var(--light-gray);
+}
+.hero-right {
+    position: relative;
+}
+.hero-right img {
+    max-width: 70%;
+    position: absolute;
+    right: 26px;
+    top: -15px;
+    z-index: 3;
+} 
+.hero-circle {
+    background-color: var(--dark-gray);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+}

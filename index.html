@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+
+    <div class="topBar">
+        <p class="text-center text-white py-2">Get 25% OFF on your first order.</p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="logo">
+                    <img src="./public/images/Logomark.svg">
+                    <img src="./public/images/Ecommerce.svg">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Shirts</a></li>
+                            <li><a class="dropdown-item" href="#">Pents</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="topIcons ms-4">
+                    <i class="ri-shopping-cart-line ri me-3"></i>
+                    <i class="ri-user-line ri-1x"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="pt-5">
+        <div class="container" style="height: 75vh;">
+            <div class="row h-100">
+                <div class="col-md-7 ps-5 d-flex flex-column justify-content-center align-items-start">
+                    <h1 class="mb-3">Fresh Arrivals Online</h1>
+                    <p class="mb-5">Discover our newest collection today</p>
+                    <a href="#" class="btn btn-primary">View Collection <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="col-md-5">
+                    <div class="hero-right">
+                        <div class="hero-circle"></div>
+                        <img src="./public/images/hero-image.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./public/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
