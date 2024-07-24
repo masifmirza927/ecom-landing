@@ -13,8 +13,9 @@
     border: 0;
     padding: 8px 25px;
 }
+
 .btn-primary:hover {
-    background-color:  var(--light-blue);
+    background-color: var(--light-blue);
 }
 
 
@@ -23,6 +24,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 ul {
     list-style: none;
     padding-left: 0;
@@ -35,16 +37,11 @@ ul {
 #hero {
     background-color: var(--light-gray);
 }
+
 .hero-right {
     position: relative;
 }
-.hero-right img {
-    max-width: 70%;
-    position: absolute;
-    right: 26px;
-    top: -15px;
-    z-index: 3;
-} 
+
 .hero-circle {
     background-color: var(--dark-gray);
     height: 500px;
@@ -68,9 +65,11 @@ ul {
 #start-browsing {
     background-image: linear-gradient(120deg, #cbcbcb71 0%, #ebedee00 100%);
 }
+
 #start-browsing p {
     color: #9c9c9c;
 }
+
 #newsletter {
     background-color: var(--dark-gray);
 }
@@ -78,6 +77,44 @@ ul {
 #footer h6 {
     color: #afafaf;
 }
+
 #footer ul li a {
     color: #5C5F6A;
+}
+
+
+@media screen and (max-width: 768px) {
+    .women-shirt {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .women-shirt img {
+        position: static !important;
+    }
+    .hero-circle {
+        display: none;
+    }
+    .hero-right img {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hero-container {
+        height: 75vh;
+    }
+    .hero-circle {
+        display: block;
+    }
+    .hero-right img {
+        max-width: 70%;
+        position: absolute;
+        right: 26px;
+        top: -15px;
+        z-index: 3;
+    }
+
 }
